@@ -6,7 +6,7 @@ import SwiftUI
 struct Solution1View: View {
     var body: some View {
         List(0..<10_000) { item in
-            VStack {
+            VStack { /* 👈 👈 👈 The magic here */
                 ItemView1(item: item)
             }
         }
